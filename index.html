@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Fruits and Vegetables Website</title>
+    <link rel="shortcut icon" href="./Photo/cat5.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bb2e0fcc63.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-page container-width">
+        <a href="#" class="logo">
+          <i class="fa-solid fa-basket-shopping"></i>Delicacy
+        </a>
+        <div id="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#home" class="home-active">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#customers">Customers</a></li>
+        </ul>
+        <div class="profile">
+          <img src="./Photo/Profile.png" alt="" />
+          <span> Gojo Saturo</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero-container container-width">
+      <span class="prev-btn"><i class="fa-solid fa-arrow-left"></i></span>
+      <!-- slide1 -->
+      <article class="hero-section active">
+        <div class="hero-text">
+          <p>WE ARE DELICACY</p>
+          <h1>
+            Choose delicacy <br />
+            the best healthy <br />
+            chicken and salad
+          </h1>
+          <a href="#" class="shop-btn"
+            >Shop Now <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="hero-img">
+          <img src="./Photo/home1.jpg" alt="" />
+        </div>
+      </article>
+      <!-- slide 2 -->
+      <article class="hero-section">
+        <div class="hero-text">
+          <p>WE ARE DELICACY</p>
+          <h1>
+            Choose delicacy <br />
+            the best healthy <br />
+            chicken and salad
+          </h1>
+          <a href="#" class="shop-btn"
+            >Shop Now <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="hero-img">
+          <img src="./Photo/home2.jpg" alt="" />
+        </div>
+      </article>
+      <!-- slide 3 -->
+      <article class="hero-section">
+        <div class="hero-text">
+          <p>WE ARE DELICACY</p>
+          <h1>
+            Choose delicacy <br />
+            the best healthy <br />
+            chicken and salad
+          </h1>
+          <a href="#" class="shop-btn"
+            >Shop Now <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="hero-img">
+          <img src="./Photo/home3.avif" alt="" />
+        </div>
+      </article>
+      <span class="next-btn"><i class="fa-solid fa-arrow-right"></i></span>
+    </section>
+    <!-- Categories -->
+    <section id="categories" class="container-width">
+      <div class="cate-header">
+        <h2>
+          Browse Our Hottest <br />
+          <span>Categories</span>
+        </h2>
+        <a href="#" class="shop-btn"
+          >Shop Now <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+      <div class="cate-card-wrapper grid-1x4">
+        <a href="#" class="cate-card bg-one">
+          <img src="./Photo/cat-1.webp" alt="cat1" />
+          <p>Fruits</p>
+          <span>34 Items</span>
+          <button type="button" class="arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        <a href="#" class="cate-card bg-two">
+          <img src="./Photo/cat2.png" alt="cat1" />
+          <p>Vegetables</p>
+          <span>65 Items</span>
+          <button type="button" class="arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        <a href="#" class="cate-card bg-three">
+          <img src="./Photo/cat3.png" alt="cat1" />
+          <p>Drinks</p>
+          <span>25 Items</span>
+          <button type="button" class="arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        <a href="#" class="cate-card bg-four">
+          <img src="./Photo/cat4.png" alt="cat1" />
+          <p>Foods</p>
+          <span>35 Items</span>
+          <button type="button" class="arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        <a href="#" class="cate-card bg-four">
+          <img src="./Photo/cat4.png" alt="cat1" />
+          <p>Foods</p>
+          <span>35 Items</span>
+          <button type="button" class="arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+        <a href="#" class="cate-card bg-four">
+          <img src="./Photo/cat4.png" alt="cat1" />
+          <p>Foods</p>
+          <span>35 Items</span>
+          <button type="button" class="arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+    <!-- Products -->
+    <section id="products" class="container-width">
+      <div class="pro-header">
+        <h2>Most Popular <span>Products</span></h2>
+        <a href="#" class="shop-btn"
+          >Shop Now <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+      <div class="pro-card-wrapper grid-1x3">
+        <!-- card 1 -->
+        <article class="pro-card">
+          <div class="pro-card-header">
+            <p>-25%</p>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="pro-card-body">
+            <img src="./Photo/p1.png" alt="p1" />
+            <p>Fruits Items</p>
+            <h3>Grap Organic</h3>
+          </div>
+          <div class="pro-card-footer">
+            <h4><span>$11.99</span>/kg</h4>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </article>
+        <!-- card 2 -->
+        <article class="pro-card">
+          <div class="pro-card-header">
+            <p>-25%</p>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="pro-card-body">
+            <img src="./Photo/p2.png" alt="p1" />
+            <p>Fuice Items</p>
+            <h3>Orange Juice</h3>
+          </div>
+          <div class="pro-card-footer">
+            <h4><span>$2.99</span>/pcs</h4>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </article>
+        <!-- card 3 -->
+        <article class="pro-card">
+          <div class="pro-card-header">
+            <p>-25%</p>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="pro-card-body">
+            <img src="./Photo/p3.png" alt="p1" />
+            <p>Juice Items</p>
+            <h3>Kiwi Juice</h3>
+          </div>
+          <div class="pro-card-footer">
+            <h4><span>$3.49</span>/pcs</h4>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </article>
+        <!-- card 4 -->
+        <article class="pro-card">
+          <div class="pro-card-header">
+            <p>-25%</p>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="pro-card-body">
+            <img src="./Photo/p4.png" alt="p1" />
+            <p>Fruits Items</p>
+            <h3>Strawberry</h3>
+          </div>
+          <div class="pro-card-footer">
+            <h4><span>$14.99</span>/kg</h4>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </article>
+        <!-- card 5 -->
+        <article class="pro-card">
+          <div class="pro-card-header">
+            <p>-25%</p>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="pro-card-body">
+            <img src="./Photo/p5.png" alt="p1" />
+            <p>Foods Items</p>
+            <h3>Soup with Sea Food</h3>
+          </div>
+          <div class="pro-card-footer">
+            <h4><span>$4.99</span>/pcs</h4>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </article>
+        <!-- card 6 -->
+        <article class="pro-card">
+          <div class="pro-card-header">
+            <p>-25%</p>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="pro-card-body">
+            <img src="./Photo/p6.png" alt="p1" />
+            <p>Drinks Items</p>
+            <h3>Fresh Organic</h3>
+          </div>
+          <div class="pro-card-footer">
+            <h4><span>$1.25</span>/pcs</h4>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="container-width">
+      <div class="about-wrapper grid-1x2">
+        <div class="about-img">
+          <img src="./Photo/About.webp" alt="About" />
+        </div>
+        <div class="about-text">
+          <h3>about us</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex soluta
+            error nam maxime ipsum velit ea tempora rerum consequuntur, aliquid
+            quam dignissimos aut eligendi iure odit id voluptatem explicabo
+            aspernatur. <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+            quidem. Lorem ipsum dolor sit amet.
+          </p>
+          <a href="#" class="shop-btn"
+            >Learn More <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Customers -->
+    <section id="customers" class="container-width">
+      <h2>Why Cutomer's Love Us?</h2>
+      <div class="cus-card-wrapper grid-1x3">
+        <article class="cus-card">
+          <span><i class="fa-solid fa-quote-left"></i></span>
+          <div class="star-wrapper">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur provident cupiditate dolorem animi quas commodi. Lorem,
+          </p>
+
+          <div class="cus-img">
+            <img src="./Photo/c1.jpg" alt="" />
+            <h3>Albert Einstein</h3>
+          </div>
+        </article>
+        <article class="cus-card">
+          <span><i class="fa-solid fa-quote-left"></i></span>
+          <div class="star-wrapper">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur provident cupiditate dolorem animi quas commodi.
+          </p>
+          <div class="cus-img">
+            <img src="./Photo/c2.jpg" alt="" />
+            <h3>Isaac Newton</h3>
+          </div>
+        </article>
+        <article class="cus-card">
+          <span><i class="fa-solid fa-quote-left"></i></span>
+          <div class="star-wrapper">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur provident cupiditate dolorem animi quas commodi.
+          </p>
+          <div class="cus-img">
+            <img src="./Photo/c3.jpg" alt="" />
+            <h3>Elon Musk</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="container-width">
+      <div class="footer-wrapper grid-1x4">
+        <article class="footer-card">
+          <a href="#" class="logo">
+            <i class="fa-solid fa-basket-shopping"></i>Delicacy
+          </a>
+          <p>
+            Street 155, Mean Chey,<br />
+            Phnom Penh
+          </p>
+          <div class="footer-icon">
+            <a
+              href="https://web.facebook.com/profile.php?id=100088155500184"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com/i/flow/login" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/torizz168___/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </article>
+        <ul class="footer-card">
+          <li class="f-size">Categories</li>
+          <li><a href="#">Fruits & Vegetables</a></li>
+          <li><a href="#">Daily Products</a></li>
+          <li><a href="#">Package Food</a></li>
+          <li><a href="#">Bevarage</a></li>
+        </ul>
+        <ul class="footer-card">
+          <li class="f-size">Useful Links</li>
+          <li><a href="#">Payment</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Return Policy</a></li>
+        </ul>
+        <article class="footer-card">
+          <h2>Newsletter</h2>
+          <p>
+            Get 10% Discound with <br />
+            Email Newsletter here.
+          </p>
+          <div class="email-input">
+            <span class="email-icon"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" placeholder="Enter your email..." />
+            <button type="submit">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+      <p class="finish">
+        <i class="fa-regular fa-copyright"></i>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </p>
+    </footer>
+    <!-- Link to js -->
+    <script src="app.js"></script>
+  </body>
+</html>
